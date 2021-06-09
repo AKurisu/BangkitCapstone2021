@@ -34,8 +34,8 @@ public class StartActivity extends AppCompatActivity {
         imgibu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent ibu = new Intent(StartActivity.this, SignupIbuActivity.class);
-                startActivity(ibu);
+//                Intent ibu = new Intent(StartActivity.this, SignupIbuActivity.class);
+//                startActivity(ibu);
             }
         });
 
@@ -54,5 +54,4 @@ public class StartActivity extends AppCompatActivity {
         finish();
     }
 
-}
 }

@@ -1,8 +1,5 @@
 package ac.id.untad.capstoneproject2021.Activity.Nakes;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -11,6 +8,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -62,10 +62,10 @@ public class SignupBidanActivity extends AppCompatActivity {
                                         prgbidan.setVisibility(View.GONE);
                                         Toast.makeText(SignupBidanActivity.this, "Mohon Maaf, Email Sudah Terdaftar", Toast.LENGTH_LONG).show();
                                     } else if (task.isSuccessful()) {
-                                        prgbidan.setVisibility(View.GONE);
-                                        Intent ya = new Intent(SignupBidanActivity.this, CompleteProfileBidan.class);
-                                        startActivity(ya);
-                                        finish();
+//                                        prgbidan.setVisibility(View.GONE);
+//                                        Intent ya = new Intent(SignupBidanActivity.this, CompleteProfileBidan.class);
+//                                        startActivity(ya);
+//                                        finish();
                                     }
                                 }
                             });
