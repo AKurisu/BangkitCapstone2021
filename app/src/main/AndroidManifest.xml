@@ -71,7 +71,8 @@
             android:name=".Activity.MapsActivity"
             android:label="@string/title_activity_maps"
             android:exported="true"/>
-        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".Activity.MainActivity"
+            android:exported="true"/>
     </application>
 
 </manifest>
